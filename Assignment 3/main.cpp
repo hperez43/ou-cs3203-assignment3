@@ -9,23 +9,23 @@ int addition(int *num) {
     return sum;
 
 }
-//int product(int num[]) {
-//    int p = 1;
-//    for (int i = 0; i < 4; i++) {
-//        p = p*num[i];
-//    }
-//    return p;
-//}
+int product(int *num) {
+    int p = 1;
+    for (int i = 0; i < 4; i++)
+        p = p*num[i];
+    return p;
+}
 
 int main() {
-    int sum = 0;
+
+    //Set up
     int num[] = {23, 78,4, 19};
+    int sum = addition(num);
+    int p = product(num);
 
     //Results
     cout << "sum: " << sum << endl;
-
-//    int p = product(num);
-//    cout << "product: " << p << endl;
+    cout << "product: " << p << endl;
 
     return 0;
 }
