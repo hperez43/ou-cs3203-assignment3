@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+// Computes sum of array
+int addition(int *num) {
+    int sum = 0;
+    for (int i = 0; i < 4; i ++)
+        sum = sum+num[i];
+    return sum;
+
+}
 //int product(int num[]) {
 //    int p = 1;
 //    for (int i = 0; i < 4; i++) {
@@ -13,9 +21,7 @@ int main() {
     int sum = 0;
     int num[] = {23, 78,4, 19};
 
-    for (int i = 0; i < 4; i ++) {
-        sum = sum+num[i];
-    }
+    //Results
     cout << "sum: " << sum << endl;
 
 //    int p = product(num);
