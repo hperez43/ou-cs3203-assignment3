@@ -9,6 +9,7 @@ int addition(int *num) {
     return sum;
 
 }
+// Computes product of array
 int product(int *num) {
     int p = 1;
     for (int i = 0; i < 4; i++)
