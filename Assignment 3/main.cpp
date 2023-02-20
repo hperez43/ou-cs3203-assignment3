@@ -27,5 +27,7 @@ int main() {
     cout << "sum: " << sum << endl;
     cout << "product: " << p << endl;
 
+
+    cout << "------------------\n" << endl;
     return 0;
 }
