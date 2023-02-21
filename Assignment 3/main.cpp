@@ -36,7 +36,7 @@ void reverse(int *num) {
 int main() {
 
     //Set up
-    int num[] = {23, 78,4, 19};
+    int num[] = {23, 78,4, 19};     //Part 10
     int sum = addition(num);
     int p = product(num);
 
